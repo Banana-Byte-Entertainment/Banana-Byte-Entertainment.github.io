@@ -1,0 +1,42 @@
+@media (max-width: 799px) {
+  .video_overlay {
+    width: fit-content;
+    height: fit-content;
+    position: static;
+  }
+}
+
+@media (min-width: 799px) {
+  .video_overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 799px) {
+  .content {
+    position: relative;
+  }
+}
+
+@media (max-width: 799px) {
+  .content {
+    position: static;
+  }
+}
+
+@media (max-width: 799px) {
+  .player {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .span-show {
+    display: none;
+  }
+}
+
